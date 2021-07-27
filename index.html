@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GSAP Fullscreen Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="main">
+        <h1>GSAP Fullscreen Slider</h1>
+        <div class="content">
+            <p>
+                You can press <span>UP</span> <span>DOWN</span> on your keyboard or
+                swipe up/down to navigate. Mouse Wheel works too.
+            </p>
+        </div>
+        <div class="buttons">
+            <button class="next" onclick="go(-1)"></button>
+            <button class="prev" onclick="go(1)"></button>
+        </div>
+    </div>
+    
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
